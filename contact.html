@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="mystyles.css">
+    <script src="myscript.js"></script>
+    <div>
+      <ul>
+        <li><a href="allaboutme.html">All About Me</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a class="active" href="contact.html">Contact</a></li>
+        <li><a href="advice.html">Advice</a></li>
+      </ul>
+    </div>
+  </head>
+  <body style="background-image:url('t-background-bathroom-tile-mosaic-mirror-silver-mirror-white-mirror-silver-diamond-crystal-glass-mosaic.jpg');" width="1100" height="768">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.3.0/css/ol.css" type="text/css">
+
+    <script src="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.3.0/build/ol.js"></script>
+
+
+    <script src="mapAPI.js" type="text/javascript"></script>
+    <h1 style="text-align:center;">Contact</h1>
+    <div>
+    <h2><em>Shanon (Dell) Guider</em></h2>
+
+    <h3>Email:</h3>
+    <p>sdguider@***.edu</p>
+    <h3>Phone:</h3>
+    <p>(xxx)-819-84**</p>
+
+    </div>
+
+
+    <p>
+    <textarea id="country-name" rows="1" cols="20">Input a Country</textarea>
+    <button onclick="makeRequest()">Pan to Location</button>
+    <button onclick="panHome()">Pan back Home</button>
+    </p>
+
+
+      <div id="map" class="map"></div>
+
+
+
+    	<footer>
+    		<p>This tutorial is based on code from: <a href="http://openlayers.org/en/latest/examples/animation.html">Open Layers View Animation</a></p>
+        <p>API used: <a href="http://openlayers.org/en/latest/apidoc/">Open Layers API</a></p>
+      </footer>
+  </body>
+</html>
